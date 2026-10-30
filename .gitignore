@@ -1,0 +1,53 @@
+# ─── Raw Dataset Exclusions ─────────────────────────────────────────────────
+# Large binary OSM/PBF files — never commit to Git
+dataset/*.pbf
+dataset/*.osm
+dataset/*.osm.pbf
+
+# Raw GTFS source files — large text files; source of record is the transit agency
+dataset/bmtc/stop_times.txt
+dataset/bmtc/shapes.txt
+dataset/bmtc/trips.txt
+dataset/bmtc/fare_rules.txt
+dataset/bmtc/translations.txt
+
+# Scratch / intermediate data files by UUID name
+dataset/*.csv
+
+# ─── Python Bytecode & Cache ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ─── Pytest Cache ────────────────────────────────────────────────────────────
+.pytest_cache/
+.cache/
+
+# ─── Virtual Environments ────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ─── IDE & Editor Artifacts ──────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.suo
+*.user
+
+# ─── OS Artifacts ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Build / Distribution ────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ─── Scratch / Temp Files ────────────────────────────────────────────────────
+*.tmp
+*.bak
+scratch/

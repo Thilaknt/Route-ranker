@@ -1,0 +1,139 @@
+{
+  "mode": "STRICT_URBAN",
+  "total_routes_before": 4434,
+  "total_trips_before": 57836,
+  "total_stops_before": 9960,
+  "routes_retained": 4382,
+  "trips_retained": 57256,
+  "stops_retained": 9669,
+  "routes_excluded": 52,
+  "trips_excluded": 580,
+  "stops_excluded": 291,
+  "exclusion_breakdown": {
+    "OUTSTATION_EXTREME_DISTANCE": 39,
+    "OUTSTATION_OPERATOR_KEYWORD": 1,
+    "SUBURBAN_EXCLUDED_BY_STRICT_MODE": 12
+  },
+  "borderline_routes": [
+    {
+      "route_id": "8433",
+      "route_short_name": "V-DIVYA DARSHANA-1A",
+      "route_long_name": "Banashankari Bus Station \u21d4 Banashankari Bus Station",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 56.88,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 56.9 km within (50.0, 65.0] km",
+      "trip_count": 1
+    },
+    {
+      "route_id": "8432",
+      "route_short_name": "V-DIVYA DARSHANA-1B",
+      "route_long_name": "Central Silk Board \u21d4 Central Silk Board",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 56.88,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 56.9 km within (50.0, 65.0] km",
+      "trip_count": 1
+    },
+    {
+      "route_id": "9530",
+      "route_short_name": "VV-EXP CPT-1A",
+      "route_long_name": "Channapatna Bus Stand \u21d4 Electronic City Wipro Main Gate",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 53.85,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 53.8 km within (50.0, 65.0] km",
+      "trip_count": 2
+    },
+    {
+      "route_id": "5999",
+      "route_short_name": "VV-EXP 298MN",
+      "route_long_name": "Chikkaballapura Bus Stand \u21d4 Kempegowda Bus Station",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 53.97,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 54.0 km within (50.0, 65.0] km",
+      "trip_count": 85
+    },
+    {
+      "route_id": "8995",
+      "route_short_name": "VV-EXP KNP-1",
+      "route_long_name": "Kanakapura Bus Stand \u21d4 Banashankari Bus Station",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 50.32,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 50.3 km within (50.0, 65.0] km",
+      "trip_count": 49
+    },
+    {
+      "route_id": "9532",
+      "route_short_name": "VV-EXP KNP-1A",
+      "route_long_name": "Kanakapura Bus Stand \u21d4 Electronic City Wipro Main Gate",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 50.32,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 50.3 km within (50.0, 65.0] km",
+      "trip_count": 2
+    },
+    {
+      "route_id": "9726",
+      "route_short_name": "KANAKAPURA-1",
+      "route_long_name": "Kanakapura Bus Stand \u21d4 Kempegowda Bus Station",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 50.32,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 50.3 km within (50.0, 65.0] km",
+      "trip_count": 12
+    },
+    {
+      "route_id": "9209",
+      "route_short_name": "VV-EXP CPT-1",
+      "route_long_name": "Kempegowda Bus Station \u21d4 Channapatna Bus Stand",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 53.85,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 53.8 km within (50.0, 65.0] km",
+      "trip_count": 58
+    },
+    {
+      "route_id": "7309",
+      "route_short_name": "V-DIVYA DARSHANA-1",
+      "route_long_name": "Kempegowda Bus Station \u21d4 Kempegowda Bus Station",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 56.88,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 56.9 km within (50.0, 65.0] km",
+      "trip_count": 1
+    },
+    {
+      "route_id": "9421",
+      "route_short_name": "VV-EXP TMK-1A",
+      "route_long_name": "Tumakuru Bus Stand \u21d4 Electronic City Wipro Main Gate",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 65.02,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 65.0 km within (50.0, 65.0] km",
+      "trip_count": 5
+    },
+    {
+      "route_id": "9253",
+      "route_short_name": "VV-EXP TMK-1",
+      "route_long_name": "Tumakuru Bus Stand \u21d4 Kempegowda Bus Station",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 65.02,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 65.0 km within (50.0, 65.0] km",
+      "trip_count": 61
+    },
+    {
+      "route_id": "9498",
+      "route_short_name": "VVEXP Test AFCS",
+      "route_long_name": "Tumakuru Bus Stand \u21d4 Kempegowda Bus Station",
+      "classification": "SUBURBAN",
+      "max_stop_distance_km": 65.02,
+      "has_outstation_keyword": false,
+      "reason": "Suburban / Peri-urban commuter corridor: Max stop dist 65.0 km within (50.0, 65.0] km",
+      "trip_count": 3
+    }
+  ]
+}

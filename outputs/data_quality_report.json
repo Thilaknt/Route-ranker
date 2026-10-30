@@ -1,0 +1,24 @@
+{
+  "is_valid": true,
+  "total_agencies": 1,
+  "total_routes": 4434,
+  "total_trips": 57836,
+  "total_stops": 9960,
+  "total_stop_times": 1540686,
+  "total_shape_points": 2492304,
+  "total_shapes": 7355,
+  "total_calendar_services": 1,
+  "calendar_dates_present": false,
+  "frequencies_present": false,
+  "routes_without_trips": 18,
+  "trips_without_stop_times": 0,
+  "issues": [
+    {
+      "severity": "WARNING",
+      "table": "routes.txt",
+      "record_id": null,
+      "field": "trip_count",
+      "message": "18 routes have 0 trips in trips.txt"
+    }
+  ]
+}
